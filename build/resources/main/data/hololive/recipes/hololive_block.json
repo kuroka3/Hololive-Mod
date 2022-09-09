@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "hololive:hololive_production_logo"
+    }
+  },
+  "result": {
+    "item": "hololive:hololive_block"
+  }
+}

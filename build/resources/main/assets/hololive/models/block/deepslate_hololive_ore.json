@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "hololive:block/deepslate_hololive_ore"
+  }
+}

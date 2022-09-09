@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "hololive",
+  "version": "${version}",
+
+  "name": "Hololive Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "kuroka3"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kuroka3",
+    "sources": "https://github.com/kuroka3/Hololive-Mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/hololive/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.kurokami.hololive.hololive"
+    ],
+    "client": [
+      "io.github.kurokami.hololive.hololiveClient"
+    ]
+  },
+  "mixins": [
+    "hololive.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
